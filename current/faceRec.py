@@ -23,7 +23,7 @@ def check_face(frame):
     except ValueError:
         face_match = False
 
-#main loop (displays mathing and no matching)
+#main loop (displays matching and no matching)
 while True:
     ret, frame = cap.read()
 
